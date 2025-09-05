@@ -1,0 +1,36 @@
+body {
+    background-color: #1e1e2f;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: url('watchBG.png');
+    background-repeat: no-repeat;  
+    background-size: cover;        
+    background-position: center;      
+}
+
+#cloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 200px;
+}
+
+.clock {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    background: conic-gradient(#000 0%, #000 100%);
+}
+
+.apm {
+    font-size: 28px;
+    font-weight: bold;
+}
+
